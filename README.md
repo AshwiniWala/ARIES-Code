@@ -2,12 +2,9 @@
 ARIES algorithm as an example of a recovery algorithm used in database systems.
 
 The ARIES recovery procedure consists of three main steps:
+analysis , redo and undo
 
-[Analysis](#analysis-table)
-
-[REDO](#redo)
-
-[UNDO](#undo)
+[Sample Input](#sample-input)
 
 ## Analysis Table
 
@@ -20,3 +17,5 @@ Apply REDO to all operations which are committed after the last system checkpoin
 ## Undo
 
 Apply UNDO to all operations which are uncommitted after the last system checkpoint.
+
+## Sample Input
