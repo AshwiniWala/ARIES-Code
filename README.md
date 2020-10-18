@@ -11,8 +11,12 @@ The ARIES recovery procedure consists of three main steps:
 
 ## Analysis Table
 
+The analysis step identifies the dirty (updated) pages in the buffer
 
 ## Redo
 
+Apply REDO to all operations which are committed after the last system checkpoint.
 
 ## Undo
+
+Apply UNDO to all operations which are uncommitted after the last system checkpoint.
